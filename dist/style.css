@@ -1,0 +1,87 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff8e7;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.info-block {
+  background-color: #ffcc80;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+}
+
+.features p {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.desc {
+  font-weight: normal;
+  margin-top: 15px;
+}
+
+.chef {
+  width: 120px;
+  animation: swing 2s infinite ease-in-out;
+}
+
+@keyframes swing {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(5px); }
+  50% { transform: translateX(0); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.catalog-block {
+  background-color: #ffa726;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 20px;
+  position: relative;
+}
+
+.catalog-block h2 {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transform: rotate(-5deg);
+}
+
+.catalog-btn {
+  margin-top: 10px;
+  padding: 10px 30px;
+  background-color: #f44336;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.catalog-btn:hover {
+  transform: scale(2);
+}
+
+.sauces {
+  width: 120px;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+.address {
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+}
